@@ -1,4 +1,4 @@
-class carouselView {
+class CarouselView {
   constructor() {
     this._carouselImages = document.querySelectorAll(".carousel__slide");
     this._carouselDots = document.querySelectorAll(".carousel__dot");
@@ -37,4 +37,4 @@ class carouselView {
     });
   }
 }
-export default new carouselView();
+export default new CarouselView();
